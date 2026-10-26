@@ -1,0 +1,31 @@
+{
+    "config": [
+        {
+            "cap_config": {
+                "gap_ratio": 0.05,
+                "overshoot_mm": 0.05,
+                "root_solid_layers": 5,
+                "skin_margin_mm": 1.2208,
+                "slot_gap_mm": null,
+                "web_position": 0.5,
+                "rib_pitch_mm": null,
+                "web_depth_mm": null,
+                "families": [
+                    {
+                        "name": "fwd",
+                        "rib_pitch_mm": 8.0,
+                        "web_position": 0.4,
+                        "z_drift_mm_per_mm": 1.0,
+                        "z_period_mm": 12.0
+                    }
+                ],
+                "z_drift_mm_per_mm": null,
+                "z_period_mm": null
+            },
+            "capability": "Aircraft Structures",
+            "capability_type": "slicing-pipeline",
+            "plugin_key": "aircraft_structures",
+            "plugin_version": "0.1.0"
+        }
+    ]
+}

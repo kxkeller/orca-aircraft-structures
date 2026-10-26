@@ -1,0 +1,14 @@
+{
+  "corpus": "m35_corpus",
+  "wings": [
+    "naca2412_r150_t90_s300_w0",
+    "naca0012_r150_t90_s300_w0",
+    "naca4415_r140_t80_s300_w0",
+    "naca2408_r120_t40_s300_w0",
+    "naca2412_bluntTE900_r150_t90_s300",
+    "naca2412_r150_t90_s400_w6",
+    "naca2412_channel_fits_r150_t90_s300_d6",
+    "naca2412_channel_thins_out_r150_t90_s300_d10p5",
+    "naca2412_channel_flaring_r150_t90_s300_d7p92to10p99"
+  ]
+}

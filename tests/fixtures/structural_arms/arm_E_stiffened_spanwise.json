@@ -1,0 +1,126 @@
+{
+    "config": [
+        {
+            "cap_config": {
+                "gap_ratio": 0.05,
+                "overshoot_mm": 0.05,
+                "root_solid_layers": 5,
+                "skin_margin_mm": 0.8608,
+                "slot_gap_mm": null,
+                "web_position": 0.5,
+                "rib_pitch_mm": null,
+                "web_depth_mm": null,
+                "families": [
+                    {
+                        "name": "front_spar",
+                        "rib_pitch_mm": null,
+                        "web_position": 0.18,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "rear_spar",
+                        "rib_pitch_mm": null,
+                        "web_position": 0.44,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_1",
+                        "rib_pitch_mm": null,
+                        "web_depth_mm": 1.5,
+                        "web_position": 0.05,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_2",
+                        "rib_pitch_mm": null,
+                        "web_depth_mm": 1.5,
+                        "web_position": 0.115,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_3",
+                        "rib_pitch_mm": null,
+                        "web_depth_mm": 1.5,
+                        "web_position": 0.245,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_4",
+                        "rib_pitch_mm": null,
+                        "web_depth_mm": 1.5,
+                        "web_position": 0.31,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_5",
+                        "rib_pitch_mm": null,
+                        "web_depth_mm": 1.5,
+                        "web_position": 0.375,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_6",
+                        "rib_pitch_mm": null,
+                        "web_depth_mm": 1.5,
+                        "web_position": 0.505,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_7",
+                        "rib_pitch_mm": null,
+                        "web_depth_mm": 1.5,
+                        "web_position": 0.57,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_8",
+                        "rib_pitch_mm": null,
+                        "web_depth_mm": 1.5,
+                        "web_position": 0.635,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_9",
+                        "rib_pitch_mm": null,
+                        "web_depth_mm": 1.5,
+                        "web_position": 0.7,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_10",
+                        "rib_pitch_mm": null,
+                        "web_depth_mm": 1.5,
+                        "web_position": 0.765,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_11",
+                        "rib_pitch_mm": null,
+                        "web_depth_mm": 1.5,
+                        "web_position": 0.83,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    }
+                ],
+                "z_drift_mm_per_mm": null,
+                "z_period_mm": null
+            },
+            "capability": "Aircraft Structures",
+            "capability_type": "slicing-pipeline",
+            "plugin_key": "aircraft_structures",
+            "plugin_version": "0.1.0"
+        }
+    ]
+}

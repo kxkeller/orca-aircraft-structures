@@ -1,0 +1,63 @@
+{
+    "config": [
+        {
+            "cap_config": {
+                "gap_ratio": 0.05,
+                "overshoot_mm": 0.05,
+                "root_solid_layers": 5,
+                "skin_margin_mm": 0.8608,
+                "slot_gap_mm": null,
+                "web_position": 0.5,
+                "rib_pitch_mm": null,
+                "web_depth_mm": null,
+                "expected_hole_count": 0,
+                "families": [
+                    {
+                        "name": "spar_main",
+                        "role": "primary_structure",
+                        "rib_pitch_mm": null,
+                        "web_position": 0.3,
+                        "web_depth_mm": null,
+                        "entry_lower": false,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "spar_aft",
+                        "role": "primary_structure",
+                        "rib_pitch_mm": null,
+                        "web_position": 0.47,
+                        "web_depth_mm": null,
+                        "entry_lower": false,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_upper",
+                        "rib_pitch_mm": 3.9,
+                        "web_position": 0.742,
+                        "web_depth_mm": 1.5,
+                        "entry_lower": false,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    },
+                    {
+                        "name": "stiffener_lower",
+                        "rib_pitch_mm": 3.9,
+                        "web_position": 0.922,
+                        "web_depth_mm": 1.5,
+                        "entry_lower": true,
+                        "z_drift_mm_per_mm": null,
+                        "z_period_mm": null
+                    }
+                ],
+                "z_drift_mm_per_mm": null,
+                "z_period_mm": null
+            },
+            "capability": "Aircraft Structures",
+            "capability_type": "slicing-pipeline",
+            "plugin_key": "aircraft_structures",
+            "plugin_version": "0.1.0"
+        }
+    ]
+}

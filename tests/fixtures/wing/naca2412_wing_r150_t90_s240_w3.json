@@ -1,0 +1,18 @@
+{
+  "fixture": "wing",
+  "stem": "naca2412_wing_r150_t90_s240_w3",
+  "stl": "tests/fixtures/wing/naca2412_wing_r150_t90_s240_w3.stl",
+  "stl_sha256": "d9a696e2d5f640aff1b2d8f368bb9b7e111cf77d52ea0d611ead3452dd1a5612",
+  "naca": "2412",
+  "root_chord_mm": 150.0,
+  "tip_chord_mm": 90.0,
+  "span_mm": 240.0,
+  "washout_deg": 3.0,
+  "n_points": 120,
+  "n_stations": 41,
+  "pivot_frac_x": 0.25,
+  "triangles": 19512,
+  "chord_line_angle_root_deg": 0.0,
+  "chord_line_angle_tip_deg": 3.0000000000000004,
+  "taper_ratio": 0.6
+}

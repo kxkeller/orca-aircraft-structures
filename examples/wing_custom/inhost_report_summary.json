@@ -1,0 +1,140 @@
+{
+  "_note": "Selected fields extracted unchanged from the plugin's m1_report.json of the in-host slice (development bundle). The full report (5 MB, includes per-layer records and host filesystem paths) is not shipped. Values are copied, not recomputed.",
+  "run": {
+    "kind": "in-host slice (OrcaSlicer GUI), no G-code exported",
+    "orca_version_reported_by_host": "2.5.0-dev",
+    "plugin_elapsed_ms": 2306448.907,
+    "bundle_content_hash": "90c18f5094ac97662898ae2cac3e58349b64b3f13eea1ec199abe2ab584e0640"
+  },
+  "outcome": {
+    "layers_seen": 1000,
+    "mutated_count": 995,
+    "failed_count": 0,
+    "shutdown_count": 0,
+    "degraded_layer_count": 0,
+    "pinched_section_count": 0,
+    "root_layers_left_solid": 5,
+    "first_failure": null
+  },
+  "placement": {
+    "instance_rotation_rad": [
+      -1.5707963267948968,
+      -0.0,
+      0.0
+    ],
+    "instance_mirror": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "instance_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "plugin_applied_theta_deg": 1.5365980840169106e-07
+  },
+  "root_end": {
+    "config": "auto",
+    "decision_source": "auto_area_only",
+    "root_at": "bed",
+    "root_end": "low"
+  },
+  "resolved_host_settings": {
+    "bottom_shell_layers": "5",
+    "enable_support": "0",
+    "initial_layer_print_height": "0.2",
+    "inner_wall_line_width": "0.45",
+    "layer_height": "0.2",
+    "line_width": "0.42",
+    "nozzle_diameter": "0.4",
+    "outer_wall_line_width": "0.42",
+    "slice_closing_radius": "0.049",
+    "sparse_infill_density": "0%",
+    "spiral_mode": "1",
+    "top_shell_layers": "0",
+    "wall_generator": "classic",
+    "wall_loops": "1"
+  },
+  "chord_axis": {
+    "theta_source": "thin_te_flat",
+    "mid_span_theta_deg": 1.5365980840169106e-07,
+    "thin_te_flat_mid_span": {
+      "axis_deg": 1.5365980840169106e-07,
+      "chord_mm": 88.89992713927677,
+      "corner_angles_deg": [
+        93.89908905745408,
+        93.89823118510581
+      ],
+      "face_mm": 0.11201420475049417,
+      "face_over_chord": 0.0012600033358295668,
+      "face_over_thickness": 0.021008272476506974,
+      "hull_vertices": 172,
+      "le_side": "min_x",
+      "strong_corners": 3,
+      "theta_deg": 1.5365980840169106e-07,
+      "thickness_mm": 5.331909364549458
+    }
+  },
+  "mesh_alignment_guard": {
+    "layers_sectioned": 995,
+    "layers_failed": 0,
+    "worst_bbox_delta_mm": 0.006483716517141858,
+    "worst_bbox_delta_term": "centroid_x",
+    "worst_bbox_delta_layer": 104,
+    "triangles": 111332,
+    "interior_loop_counts": {
+      "0": 995
+    }
+  },
+  "continuity_checker_report_only": {
+    "mode": "report_only",
+    "z_continuity_active": true,
+    "layers_checked": 1000,
+    "violation_total": 0,
+    "violation_counts": {
+      "blink": 0,
+      "increase": 0,
+      "socket_restart": 0,
+      "unramped_start": 0,
+      "x_step": 0
+    },
+    "wall_matching": true,
+    "dx_max_mm": 0.347,
+    "ramp_mm": 0.2
+  },
+  "structure_summary": {
+    "full_depth_web_count": 1990,
+    "mean_web_spacing_mm": 5.703643535852307,
+    "merge_depth_truncation_threshold_ratio": 0.75,
+    "skin_line_width_mm": 0.42,
+    "total_web_count": 25227,
+    "truncated_merge_count": 538,
+    "web_mass_fraction_est": 0.26509225914347156,
+    "web_tip_air_gap_mm": 0.1602,
+    "web_tip_bond_class": "none",
+    "worst_depth_truncation_layer_index": 537,
+    "worst_depth_truncation_print_z": 107.60000000000099,
+    "worst_depth_truncation_ratio": 0.06666666666666672,
+    "worst_skin_bay_layer_index": 284,
+    "worst_skin_bay_mm": 29.298911280000553,
+    "worst_skin_bay_print_z": 57.00000000000027
+  },
+  "role_totals": {
+    "primary_structure": {
+      "merged_slots": 0,
+      "omitted": 1990,
+      "opposing_entry_omitted": 0,
+      "role_yield_omitted": 0,
+      "slots": 1990
+    },
+    "skin_lattice": {
+      "merged_slots": 3834,
+      "omitted": 7652,
+      "opposing_entry_omitted": 3293,
+      "role_yield_omitted": 678,
+      "slots": 25154
+    }
+  },
+  "node_merge_count": 1917
+}

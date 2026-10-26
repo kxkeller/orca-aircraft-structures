@@ -1,0 +1,9 @@
+# Source and text files are checked out with LF on every platform, so the
+# generated bundle has the same sha256 everywhere.
+*.py text eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+# Keep the recorded example files byte-for-byte (they carry published hashes).
+examples/** -text

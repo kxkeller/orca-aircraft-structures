@@ -1,0 +1,142 @@
+{
+    "config": [
+        {
+            "cap_config": {
+                "gap_ratio": 0.05,
+                "overshoot_mm": 0.05,
+                "root_solid_layers": 5,
+                "skin_margin_mm": 0.8608,
+                "slot_gap_mm": null,
+                "web_position": 0.5,
+                "rib_pitch_mm": null,
+                "web_depth_mm": null,
+                "expected_hole_count": 0,
+                "families": [
+                    {
+                        "name": "lattice_plus_upper",
+                        "role": "skin_lattice",
+                        "rib_pitch_mm": null,
+                        "rib_pitch_chord_frac": 0.12,
+                        "web_position": 0.35,
+                        "web_depth_mm": 1.5,
+                        "entry_lower": false,
+                        "z_drift_mm_per_mm": 1.0,
+                        "z_period_mm": 64.6,
+                        "z_drift_chord_frac_per_mm": null
+                    },
+                    {
+                        "name": "lattice_minus_upper",
+                        "role": "skin_lattice",
+                        "rib_pitch_mm": null,
+                        "rib_pitch_chord_frac": 0.12,
+                        "web_position": 0.35,
+                        "web_depth_mm": 1.5,
+                        "entry_lower": false,
+                        "z_drift_mm_per_mm": -1.0,
+                        "z_period_mm": 64.6,
+                        "z_drift_chord_frac_per_mm": null
+                    },
+                    {
+                        "name": "lattice_plus_lower",
+                        "role": "skin_lattice",
+                        "rib_pitch_mm": null,
+                        "rib_pitch_chord_frac": 0.12,
+                        "web_position": 0.35,
+                        "web_depth_mm": 1.5,
+                        "entry_lower": true,
+                        "z_drift_mm_per_mm": 1.0,
+                        "z_period_mm": 64.6,
+                        "z_drift_chord_frac_per_mm": null
+                    },
+                    {
+                        "name": "lattice_minus_lower",
+                        "role": "skin_lattice",
+                        "rib_pitch_mm": null,
+                        "rib_pitch_chord_frac": 0.12,
+                        "web_position": 0.35,
+                        "web_depth_mm": 1.5,
+                        "entry_lower": true,
+                        "z_drift_mm_per_mm": -1.0,
+                        "z_period_mm": 64.6,
+                        "z_drift_chord_frac_per_mm": null
+                    },
+                    {
+                        "name": "deep_plus_upper",
+                        "role": "primary_structure",
+                        "rib_pitch_mm": null,
+                        "rib_pitch_chord_frac": 0.287,
+                        "web_position": 0.35,
+                        "web_depth_mm": null,
+                        "entry_lower": false,
+                        "z_drift_mm_per_mm": 1.0,
+                        "z_period_mm": 64.6,
+                        "z_drift_chord_frac_per_mm": null
+                    },
+                    {
+                        "name": "deep_minus_upper",
+                        "role": "primary_structure",
+                        "rib_pitch_mm": null,
+                        "rib_pitch_chord_frac": 0.287,
+                        "web_position": 0.35,
+                        "web_depth_mm": null,
+                        "entry_lower": false,
+                        "z_drift_mm_per_mm": -1.0,
+                        "z_period_mm": 64.6,
+                        "z_drift_chord_frac_per_mm": null
+                    },
+                    {
+                        "name": "deep_plus_lower",
+                        "role": "primary_structure",
+                        "rib_pitch_mm": null,
+                        "rib_pitch_chord_frac": 0.287,
+                        "web_position": 0.35,
+                        "web_depth_mm": null,
+                        "entry_lower": true,
+                        "z_drift_mm_per_mm": 1.0,
+                        "z_period_mm": 64.6,
+                        "z_drift_chord_frac_per_mm": null
+                    },
+                    {
+                        "name": "deep_minus_lower",
+                        "role": "primary_structure",
+                        "rib_pitch_mm": null,
+                        "rib_pitch_chord_frac": 0.287,
+                        "web_position": 0.35,
+                        "web_depth_mm": null,
+                        "entry_lower": true,
+                        "z_drift_mm_per_mm": -1.0,
+                        "z_period_mm": 64.6,
+                        "z_drift_chord_frac_per_mm": null
+                    },
+                    {
+                        "name": "flank_upper_fwd",
+                        "role": "primary_structure",
+                        "entry_lower": false,
+                        "socket_flank_offset_mm": 1.005,
+                        "socket_flank_direction": "forward"
+                    },
+                    {
+                        "name": "flank_lower_aft",
+                        "role": "primary_structure",
+                        "entry_lower": true,
+                        "socket_flank_offset_mm": 1.005,
+                        "socket_flank_direction": "aft"
+                    }
+                ],
+                "z_drift_mm_per_mm": null,
+                "z_period_mm": null,
+                "spar_diameter_mm": null,
+                "spar_station": 0.3,
+                "spar_clearance_mm": 0.15,
+                "spar_neck_width_mm": 1.2,
+                "require_primary_structure": false,
+                "allow_config_spar_fallback": false,
+                "metrics_enabled": true
+            },
+            "capability": "Aircraft Structures",
+            "capability_type": "slicing-pipeline",
+            "plugin_key": "aircraft_structures",
+            "plugin_version": "0.1.0"
+        }
+    ]
+}

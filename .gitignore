@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+local/
+host/
+artifacts/
+*.gcode
+!examples/wing_custom/snapshot_run_root_half.gcode
+*.gcode.3mf
+debug_out/
+tests/_scratch_config_cli/
+.claude/worktrees/

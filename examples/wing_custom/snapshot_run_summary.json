@@ -1,0 +1,71 @@
+{
+  "_note": "Selected fields from the plugin report (m1_report.json) of an in-host GUI slice made from this snapshot. The full report is not shipped.",
+  "run": {
+    "kind": "in-host slice (OrcaSlicer GUI), G-code exported",
+    "date": "2026-10-27",
+    "orca_version_reported_by_host": "2.5.0-dev",
+    "host_zip_sha256": "1283a196b2e5ed14d05123645706acbe31b0665cfc671887db0e61ef5bf6595a",
+    "printer_profile": "Elegoo Centauri Carbon 0.4 nozzle",
+    "process_preset": "M1 Coupon 0.20mm @Elegoo CC 0.4",
+    "plugin_config": "examples/wing_custom/plugin_config.json (z_continuity true)",
+    "bundle_content_hash": "54ea6a33ac9f29328fa09a7bb3614b31501089c00cb57e3af3df30ce21ec57c9",
+    "plugin_elapsed_ms": 852630.979,
+    "config_drift": [],
+    "model": "wing_custom_from_host.stl cut in OrcaSlicer at Z = 100 mm before slicing; only the root half (Z 0-100 mm) was sliced"
+  },
+  "outcome": {
+    "layers_seen": 500,
+    "mutated_count": 495,
+    "failed_count": 0,
+    "shutdown_count": 0,
+    "degraded_layer_count": 0,
+    "pinched_section_count": 0,
+    "first_failure": null,
+    "node_merge_count": 833
+  },
+  "root_layers": 5,
+  "structure_summary": {
+    "full_depth_web_count": 990,
+    "mean_web_spacing_mm": 6.3830432279216955,
+    "merge_depth_truncation_threshold_ratio": 0.75,
+    "skin_line_width_mm": 0.42,
+    "total_web_count": 13428,
+    "truncated_merge_count": 153,
+    "web_mass_fraction_est": 0.2657390469278948,
+    "web_tip_air_gap_mm": 0.1602,
+    "web_tip_bond_class": "none",
+    "worst_depth_truncation_layer_index": 456,
+    "worst_depth_truncation_print_z": 91.40000000000076,
+    "worst_depth_truncation_ratio": 0.13333333333333322,
+    "worst_skin_bay_layer_index": 284,
+    "worst_skin_bay_mm": 29.298911520000544,
+    "worst_skin_bay_print_z": 57.00000000000027
+  },
+  "role_totals": {
+    "primary_structure": {
+      "merged_slots": 0,
+      "omitted": 990,
+      "opposing_entry_omitted": 0,
+      "role_yield_omitted": 0,
+      "slots": 990
+    },
+    "skin_lattice": {
+      "merged_slots": 1666,
+      "omitted": 3125,
+      "opposing_entry_omitted": 1301,
+      "role_yield_omitted": 298,
+      "slots": 13271
+    }
+  },
+  "gcode": {
+    "file": "snapshot_run_root_half.gcode",
+    "sha256": "9f44fdc1b260f86ed17ebc079588ae3eb87fbca9899a465e49e45d6bdb3c7d1d",
+    "bytes": 2873270,
+    "max_z_height_mm": 100.0,
+    "layers": 500,
+    "orca_estimates_not_measured": {
+      "printing_time": "1h 15m 56s",
+      "filament_g": 13.61
+    }
+  }
+}

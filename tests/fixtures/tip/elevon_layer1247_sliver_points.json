@@ -1,0 +1,26 @@
+{
+  "_comment": "Commit-C fixture (M39 elevon-tip follow-up). The REAL, measured mesh cross-section of newoutsidewingelevon.stl at layer 1247 (print_z=249.6mm, slice_z=249.5mm, 9.155e-5mm below the mesh's own z_max, sectioned via MeshSectioner after the M39 downward-nudge fix). NOT a synthetic aerofoil: the wing tapers to a near-zero-chord tip, so the true section here is a knife-edge sliver, not a flat cap. Dumped in the CANONICAL post-M38-rotation frame (rotated by -theta, theta=89.98454229210878 deg, the sharp-TE-band-resolved global alignment for this wing) so frame.rotation_deg reads ~0 deg here, matching what StructureGenerator.generate() actually sees during a real run (the raw, un-derotated mesh section is rotated ~90 deg and trips the UNRELATED rotation-envelope check before ever reaching the pitch-collapse/classify_region path this fixture exists to exercise).",
+  "source_stl_sha256": "109b8c12cc9a1290a8e7589f15336c4e073848e44e0e1c60650df3cefcb77368",
+  "layer_index": 1247,
+  "print_z_mm": 249.6,
+  "slice_z_mm": 249.5,
+  "theta_deg_applied": 89.98454229210878,
+  "measured": {
+    "point_count": 7,
+    "area_mm2": 0.005772172313176505,
+    "bbox_mm": [-3.1666961083054, 2.51062804009016, -1.3591272704978294, 2.517372926403705],
+    "width_mm": 1.8075688378075707,
+    "depth_mm": 0.00674488631354464,
+    "aspect_ratio": 268.0,
+    "fill_ratio": 0.4735
+  },
+  "points_mm": [
+    [-2.874107098224778, 2.5170175415138143],
+    [-1.3591272704978294, 2.517372926403705],
+    [-2.885598505773231, 2.51062804009016],
+    [-3.1666961083054, 2.5169269017685956],
+    [-2.8752192635788774, 2.5170172196683085],
+    [-2.8748628002374126, 2.51701707797044],
+    [-2.8744898878930734, 2.5170173716566344]
+  ]
+}

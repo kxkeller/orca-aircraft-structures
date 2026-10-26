@@ -1,0 +1,20 @@
+# Development and test requirements for the offline test suite and tools.
+#
+# Pinned to the versions the suite was verified against (CPython 3.11.9,
+# Windows). Newer versions may work but are not verified.
+#
+#   python -m venv venv
+#   venv\Scripts\python -m pip install -r requirements-dev.txt
+#   venv\Scripts\python tools\run_tests.py
+#
+# numpy is imported at module level by tests/integration/fake_orca.py; without
+# it the suite fails at collection. shapely and scipy are optional at import
+# time, but about a hundred tests skip without them, so a run without them is
+# not a meaningful pass.
+#
+# The plugin itself (plugin/aircraft_structures/aircraft_structures.py) has no
+# third-party dependencies: it needs only the Python standard library and the
+# host's `orca` module, which the OrcaSlicer plugin host provides at run time.
+numpy==2.4.6
+shapely==2.2.0
+scipy==1.17.1

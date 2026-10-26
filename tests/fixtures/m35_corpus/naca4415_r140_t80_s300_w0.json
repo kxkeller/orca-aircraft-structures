@@ -1,0 +1,21 @@
+{
+  "stem": "naca4415_r140_t80_s300_w0",
+  "stl": "tests/fixtures/m35_corpus/naca4415_r140_t80_s300_w0.stl",
+  "stl_sha256": "168504f1de25aef307cfffb28f43fa397fed8068455f56ba6d9a1544cad90af2",
+  "triangles": 788,
+  "watertight_ok": true,
+  "watertight_details": "788 triangles, 2364 directed edge instances, 1182 undirected edges; all edges shared by exactly 2 triangles",
+  "watertight_problems": [],
+  "family": "tapered_naca4",
+  "naca": "4415",
+  "m": 0.04,
+  "p": 0.4,
+  "t": 0.15,
+  "root_chord_mm": 140,
+  "tip_chord_mm": 80,
+  "span_mm": 300,
+  "washout_deg": 0.0,
+  "n_points": 100,
+  "n_stations": 2,
+  "pivot_frac_x": 0.25
+}
